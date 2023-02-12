@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Atasan{
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 10vh;
+    /* height: 50vh; */
+    margin-left: 50px;
+    box-shadow: 1px 1px 10px;
+}
+
+.card .btn{
+    background-color: red;
+}
+
+.card .card-body {
+    padding: 20px;
+    display: flex;
+
+}
+
+
+.form-control {
+    display: flex;
+    box-sizing: border-box;
+    /* width: 5vw; */
+    border-radius: 5px;
+}
+
+/* .form-label{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+} */
+.Nama-customer {
+    font-weight: 500px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card .form{
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}

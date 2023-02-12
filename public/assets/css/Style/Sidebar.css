@@ -1,0 +1,97 @@
+.Container {
+    display: flex;
+    min-height: 100vh;
+    margin-right: 300px;
+    /* position: fixed; */
+}
+
+.Sidebar .Header .List-Item .Desc .Icon {
+    display: flex;
+    flex: row;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.Sidebar {
+    background-color: #111827;
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+}
+
+.Sidebar .Header .List-Item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 4vh;
+}
+
+.Sidebar .Desc-Header {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.Sidebar .Header .Ilustration .Icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0px 22px 0px;
+    box-sizing: border-box;
+
+}
+
+.Sidebar a {
+    text-decoration: none;
+}
+
+/* .Main {
+    background-color: #eeeeee;
+    flex-grow: 1;
+} */
+
+.Sidebar .Main .List-Item .Description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+
+.Sidebar .Main .List-Item .Icon {
+    margin-right: 10px;
+    /* height: 4vh; */
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.Sidebar .Main .List-Item{
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+}
+.Sidebar .Main .List-Item:hover{
+    background-color: tomato;
+    transition: ease-in .3s
+}

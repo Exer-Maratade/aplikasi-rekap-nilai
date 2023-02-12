@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-control{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* box-shadow: 1px 3px 0px 1px; */
+}
+
+.inputDikreg{
+    display: flex;
+    width: 30vw;
+    /* padding: 10px; */
+    /* margin-right: 70px; */
+    /* margin-left: 20px; */
+    /* margin-top: 30px; */
+}
+
+.form-select{
+    display: flex;
+    /* padding: 10px; */
+    margin-left: 15px;
+    margin-right: 10px;
+
+}
+
+input{
+    display: flex;
+    text-transform: capitalize;
+    /* padding: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+select{
+    display: flex;
+    text-transform: capitalize;
+    /* padding: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mb-3{
+    width: auto;
+    /* padding: 10px; */
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.col{
+    display: flex;
+    width: 30vw;
+    padding: 10px;
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
