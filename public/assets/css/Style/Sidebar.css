@@ -1,8 +1,8 @@
 .Container {
     display: flex;
     min-height: 100vh;
-    margin-right: 300px;
-    /* position: fixed; */
+    /* margin-right: 150px; */
+    position: relative;
 }
 
 .Sidebar .Header .List-Item .Desc .Icon {
@@ -14,13 +14,14 @@
 
 .Sidebar {
     background-color: #111827;
-    width: 260px;
+    width: 300px;
     padding: 24px;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     position: fixed;
     height: 100%;
+    margin-right: 160px;
 }
 
 .Sidebar .Header .List-Item {

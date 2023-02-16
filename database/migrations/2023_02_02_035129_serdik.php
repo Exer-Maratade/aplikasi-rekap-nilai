@@ -16,10 +16,11 @@ return new class extends Migration
         Schema::create('serdik', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nama_siswa');
-            $table->string('nosis');
-            $table->string('tempat_lahir');
-            $table->date('tgl_lahir');
+            $table->integer('nosis')->unique();
+            $table->string('tempat_lahir')->nullable();
+            $table->date('tgl_lahir')->nullable();
 
+            $table->rememberToken();
             $table->timestamps();
         });
     }

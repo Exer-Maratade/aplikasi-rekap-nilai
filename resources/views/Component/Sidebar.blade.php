@@ -23,16 +23,19 @@
                 <span class="Description">Dikreg</span>
             </a>
 
-
-
-            <div class="List-Item">
-                <img class="Icon" src="./assets/icons/speedometer.svg" alt="">
+            <a class="List-Item {{ Request::is('Serdik') ? 'text-primary' : '' }}" href="{{route('Serdik')}}">
+                    <img class="Icon"
+                src="./assets/icons/speedometer.svg" alt="">
                 <span class="Description">Serdik</span>
-            </div>
-            <div class="List-Item">
-                <img class="Icon" src="./assets/icons/speedometer.svg" alt="">
+            </a>
+
+
+
+
+            <a class="List-Item" href="{{ route('pleton') }}">
+                <img class="Icon" src="./assets/icons/speedometer.svg" alt="" >
                 <span class="Description">Pleton</span>
-            </div>
+            </a>
             <div class="List-Item">
                 <img class="Icon" src="./assets/icons/speedometer.svg" alt="">
                 <span class="Description">Kompi</span>

@@ -11,14 +11,15 @@
 
     <link rel="stylesheet" href="./assets/css/Style/Sidebar.css">
     <link rel="stylesheet" href="./assets/css/Style/Home.css">
-    <link rel="stylesheet" href="./assets/css/Style/Dikreg.css">
+    {{-- <link rel="stylesheet" href="./assets/css/Style/Dikreg.css">
+    <link rel="stylesheet" href="./assets/css/Style/Serdik.css"> --}}
     <title>Document</title>
 </head>
 
 <body>
     <div class="Container">
         @include('Component.Sidebar')
-        <div class="Main-Content">
+        <div class="Main-Content ">
             <div class="List-Item">
                @yield('Container')
             </div>

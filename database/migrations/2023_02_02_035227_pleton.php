@@ -16,6 +16,8 @@ return new class extends Migration
         Schema::create('pleton', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nama_pleton');
+            // $table->foreignId('tendik');
+            $table->foreignId('serdik_id');
 
             $table->timestamps();
         });

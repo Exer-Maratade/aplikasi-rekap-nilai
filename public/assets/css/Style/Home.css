@@ -1,78 +1,34 @@
-body{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
-}
+
+/* css dikreg  */
+
 .container{
+    width: max-content;
+    margin-left: 330px;
+    margin-top: 30px;
     display: flex;
-    box-sizing: border-box;
+}
+.container .row .col{
+    margin-left: 300px;
+    margin-top: 30px;
+    display: contents;
 }
 
-.Atasan{
-    margin-bottom: 15px;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.d-flex {
-    display: flex;
-    justify-content: center;
-}
-
-.card {
-    display: flex;
-    box-sizing: border-box;
-    margin-top: 10vh;
-    /* height: 50vh; */
-    margin-left: 50px;
-    box-shadow: 1px 1px 10px;
-}
-
-.card .btn{
-    background-color: red;
-}
-
-.card .card-body {
+/* form control */
+.inputDikreg .form-control{
+    display: flexbox;
     padding: 20px;
-    display: flex;
-
+    width: 25vw;
+    margin-bottom: 5px;
+    height: max-content;
+    box-shadow: 6px 4px 1px 2px;
 }
 
 
-.form-control {
-    display: flex;
-    box-sizing: border-box;
-    /* width: 5vw; */
-    border-radius: 5px;
-}
-
-/* .form-label{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 8px;
-} */
-.Nama-customer {
-    font-weight: 500px;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.card .form{
-    margin-left: 20px;
-    font-size: 22px;
-    font-weight: 400;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   }
-
-.btn {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    background-color: gray;
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    margin-right: 50px;
-    margin-bottom: 50px;
+/* table  */
+.container .row .col .table{
+    display: table;
+    width: max-content;
+    height: max-content;
+    margin-left: 70px;
+    
 }

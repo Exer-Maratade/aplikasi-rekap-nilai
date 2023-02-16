@@ -34,7 +34,7 @@ class loginController extends Controller
         if (Auth::attempt($infologin)) {
             # code... login sukses
             // return "berhasil";
-            return redirect('/Home')->with('success', 'berhasil masuk');
+            return redirect('/Home')->with('success', 'berhasil masuk masuk dalam aplikasi');
         } else {
             # code...gagal masuk
             return back()->with('loginEror', 'Gagal masuk harap coba lagi');
